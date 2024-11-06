@@ -352,6 +352,39 @@ footer {
 }
 
 
+@media (max-width: 800px) {
+  /* Adjust font size for the heading */
+  .top h1 {
+    font-size: 2rem; /* Adjust as needed */
+    text-align: center;
+  }
+  
+  .top h2 {
+    font-size: 1.2rem; /* Adjust as needed */
+    text-align: center;
+  }
+
+  /* Center the "Learn More" button and adjust its size */
+  .learn {
+    font-size: 14px;
+    padding: 8px 12px;
+    margin: 0 auto;
+    display: block;
+  }
+
+  /* Add padding for better balance on mobile */
+  .top {
+    padding: 20px;
+  }
+
+  /* Adjust spacing for better readability */
+  .top .centered, .top .bottom {
+    text-align: center;
+  }
+}
+
+
+
 
 
 
